@@ -1,0 +1,37 @@
+body 
+{
+    color: #222222;
+    font-family: Consolas, Courier, monospace;
+    font-size: 15px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.text
+{
+    font-family: Consolas, Courier, monospace;
+}
+#indent1
+{
+    margin-left: 35px;
+}
+#indent2
+{
+    margin-left: 70px;
+}
+a.class1 
+{
+    color:rgb(238, 147, 19);
+    text-decoration: none;
+}
+a.class2 
+{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+a.class3
+{
+    color:rgb(35, 98, 235);
+    text-decoration: none;
+}

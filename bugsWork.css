@@ -1,0 +1,14 @@
+body 
+{
+    color: #222222;
+    font-family: Consolas, Courier, monospace;
+    font-size: 15px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.text
+{
+    font-family: Consolas, Courier, monospace;
+}

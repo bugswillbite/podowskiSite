@@ -1,0 +1,19 @@
+.buggie 
+{
+    width: 20%;
+    margin-left: 77%;
+    margin-top: 28px;
+    position: relative;
+    display: block;
+}
+.text1
+{
+    font-size: 3em;
+    margin: 10;
+    margin-left: 7%;
+    text-transform: uppercase;
+    font-weight: bold;
+    opacity: 100;
+    font-family: Consolas, Courier, monospace;  
+    position: relative;
+}
