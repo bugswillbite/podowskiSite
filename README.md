@@ -3,7 +3,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/bugswillbite/podowskiSite">
-    <img src="buggiegirle.png" alt="bug" height="80">
+    <img src="buggiegirle copy.png" alt="bug" height="80">
   </a>
 
 <h3 align="center">podowski_website</h3>
