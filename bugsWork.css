@@ -1,14 +1,306 @@
+:root 
+{
+    --bg-color: #222222;
+    --text-color: rgb(255, 255, 255);
+    --bg-image: url('sc1.png');
+}
+
 body 
 {
-    color: #222222;
-    font-family: Consolas, Courier, monospace;
-    font-size: 15px;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    text-align: left;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-repeat: repeat;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
 }
-.text
+
+/* THEMES */
+/* Mode1 */
+.theme1 
 {
-    font-family: Consolas, Courier, monospace;
+    --bg-color: #f0f0f0;
+    --text-color: #222222;
+    --bg-image: url('sc2.png');
+}
+.T1
+{
+    position: absolute;
+    top: 10px;
+    left: 1%;
+    max-width: 15px;
+}
+/* Mode2 */
+.theme2 
+{
+    --bg-color: #1e3a8a;
+    --text-color: #fbbf24;
+    --bg-image: url('sc3.png');
+}
+.T2
+{
+    position: absolute;
+    top: 10px;
+    left: 1.7%;
+    max-width: 15px;
+}
+/* Mode3 */
+.theme3 
+{
+    --bg-color: #164a16;
+    --text-color: #a3e635;
+    --bg-image: url('sc4.png');
+}
+.T3
+{
+    position: absolute;
+    top: 10px;
+    left: 2.4%;
+    max-width: 15px;
+}
+/* OG-Mode */
+.T4
+{
+    position: absolute;
+    top: 10px;
+    left: 3.1%;
+    max-width:15px;
+}
+
+/* FILE ICONS // TEXT */
+/* #1. 2025 */
+.file1
+{
+    position: absolute;
+    top: 90px;
+    left: 21%;
+    max-width: 80px;
+}
+.txt1
+{
+    position: absolute;
+    top: 140px;
+    left: 23.9%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #2. 2024 */
+.file2
+{
+    position: absolute;
+    top: 209.5px;
+    left: 26%;
+    max-width: 80px;
+}
+.txt2
+{
+    position: absolute;
+    top: 257.5px;
+    left: 28.9%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #3. 2023 */
+.file3
+{
+    position: absolute;
+    top: 126px;
+    left: 33%;
+    max-width: 80px;
+}
+.txt3
+{
+    position: absolute;
+    top: 172px;
+    left: 35.8%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #4. 2022 */
+.file4
+{
+    position: absolute;
+    top: 98px;
+    left: 41%;
+    max-width: 80px;
+}
+.txt4
+{
+    position: absolute;
+    top: 144px;
+    left: 43.8%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #5. 2021 */
+.file5
+{
+    position: absolute;
+    top: 245px;
+    left: 35%;
+    max-width: 80px;
+}
+.txt5
+{
+    position: absolute;
+    top: 292.5px;
+    left: 37.9%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #6. 2020 // >2020 */
+.file6
+{
+    position: absolute;
+    top: 203.5px;
+    left: 43.5%;
+    max-width: 80px;
+}
+.txt6
+{
+    position: absolute;
+    top: 251.5px;
+    left: 46.5%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/* MEDIUMS//ICONS */
+.painting
+{
+    position: absolute;
+    top: 303.5px;
+    left: 62.5%;
+    max-width: 80px;
+}
+.paint
+{
+    position: absolute;
+    top: 349.5px;
+    left: 65.5%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.sculpture
+{
+    position: absolute;
+    top: 353px;
+    left: 71.5%;
+    max-width: 80px;
+}
+.sculpt
+{
+    position: absolute;
+    top: 410.5px;
+    left: 74.5%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.threeDee
+{
+    position: absolute;
+    top: 317.5px;
+    left: 80.5%;
+    max-width: 80px;
+}
+.threeD
+{
+    position: absolute;
+    top: 386px;
+    left: 83.4%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.video
+{
+    position: absolute;
+    top: 231.5px;
+    left: 68.5%;
+    max-width: 80px;
+}
+.vid
+{
+    position: absolute;
+    top: 277px;
+    left: 71.3%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.webDesign
+{
+    position: absolute;
+    top: 193.5px;
+    left: 77%;
+    max-width: 80px;
+}
+.webDes
+{
+    position: absolute;
+    top: 257.5px;
+    left: 79.8%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.gameDev
+{
+    position: absolute;
+    top: 267px;
+    left: 88%;
+    max-width: 80px;
+}
+.game
+{
+    position: absolute;
+    top: 314.5px;
+    left: 91%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
