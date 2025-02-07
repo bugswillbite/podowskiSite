@@ -2,8 +2,8 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/buggiegirle.png" alt="Logo" height="80">
+  <a href="https://github.com/bugswillbite/podowskiSite">
+    <img src="buggiegirle.png" alt="Logo" height="80">
   </a>
 
 <h3 align="center">podowski_website</h3>
