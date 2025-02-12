@@ -1,0 +1,50 @@
+body 
+{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-repeat: repeat;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+}
+
+.everyPic
+{
+    position: absolute;
+    top: -1.5px;
+    left: -0.8%;
+    max-width: 394.5px;
+}
+
+.awesome
+{
+    position: absolute;
+    top: 356px;
+    left: 75.2%;
+    max-width: 118.5px;
+}
+
+.doom
+{
+    position: absolute;
+    top: 193px;
+    left: 78.7%;
+    max-width: 278px;
+}
+.earth
+{
+    position: absolute;
+    top: 581.5px;
+    left: -2.3%;
+    max-width: 305px;
+}
+
+.framed
+{
+    position: absolute;
+    top: 419.5px;
+    left: 9.7%;
+    max-width: 305px;
+}
+
+

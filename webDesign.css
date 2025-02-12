@@ -1,0 +1,150 @@
+:root 
+{
+    --bg-color: #222222;
+    --text-color: rgb(255, 255, 255);
+    --bg-image: url('VGB3.png');
+}
+
+body 
+{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-repeat: repeat;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+}
+
+/* THEMES */
+/* Mode1 */
+.theme1 
+{
+    --bg-color: #f0f0f0;
+    --text-color: #222222;
+    --bg-image: url('aeroglasses.gif');
+}
+.T1
+{
+    position: absolute;
+    top: 10px;
+    left: 1%;
+    max-width: 15px;
+}
+/* Mode2 */
+.theme2 
+{
+    --bg-color: #1e3a8a;
+    --text-color: #fbbf24;
+    --bg-image: url('converse.jpg');
+}
+.T2
+{
+    position: absolute;
+    top: 10px;
+    left: 1.7%;
+    max-width: 15px;
+}
+/* Mode3 */
+.theme3 
+{
+    --bg-color: #164a16;
+    --text-color: #a3e635;
+    --bg-image: url('VGB1.png');
+}
+.T3
+{
+    position: absolute;
+    top: 10px;
+    left: 2.4%;
+    max-width: 15px;
+}
+/* OG-Mode */
+.T4
+{
+    position: absolute;
+    top: 10px;
+    left: 3.1%;
+    max-width:15px;
+}
+
+/* FILE ICONS // TEXT */
+/* #1. BigBugsBrain */
+.file1
+{
+    position: absolute;
+    top: 198px;
+    left: 18%;
+    max-width: 80px;
+}
+.txt1
+{
+    position: absolute;
+    top: 245px;
+    left: 20.67%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #2. mysa */
+.file2
+{
+    position: absolute;
+    top: 274.5px;
+    left: 29.9%;
+    max-width: 80px;
+}
+.txt2
+{
+    position: absolute;
+    top: 257.5px;
+    left: 28.9%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #3. rUsmart */
+.file3
+{
+    position: absolute;
+    top: 361px;
+    left: 30%;
+    max-width: 80px;
+}
+.txt3
+{
+    position: absolute;
+    top: 407.5px;
+    left: 32.8%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #4. garfield */
+.file4
+{
+    position: absolute;
+    top: 218.5px;
+    left: 37%;
+    max-width: 80px;
+}
+.txt4
+{
+    position: absolute;
+    top: 263px;
+    left: 39.8%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
