@@ -1,50 +1,311 @@
+:root 
+{
+    --bg-color: #222222;
+    --text-color: rgb(255, 255, 255);
+    --bg-image: url('bugBack.png');
+}
 body 
 {
     background-color: var(--bg-color);
     color: var(--text-color);
     background-image: var(--bg-image);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: repeat;
     transition: background-color 0.3s, color 0.3s, background-image 0.3s;
 }
 
-.everyPic
+.welcome
+{
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+}
+/* THEMES */
+/* Mode1 */
+.theme1 
+{
+    --bg-color: #f0f0f0;
+    --text-color: #222222;
+    --bg-image: url('sc2.png');
+}
+.T1
 {
     position: absolute;
-    top: -1.5px;
-    left: -0.8%;
-    max-width: 394.5px;
+    top: 10px;
+    left: 1%;
+    max-width: 15px;
+}
+/* Mode2 */
+.theme2 
+{
+    --bg-color: #1e3a8a;
+    --text-color: #fbbf24;
+    --bg-image: url('sc3.png');
+}
+.T2
+{
+    position: absolute;
+    top: 10px;
+    left: 1.7%;
+    max-width: 15px;
+}
+/* Mode3 */
+.theme3 
+{
+    --bg-color: #164a16;
+    --text-color: #a3e635;
+    --bg-image: url('sc4.png');
+}
+.T3
+{
+    position: absolute;
+    top: 10px;
+    left: 2.4%;
+    max-width: 15px;
+}
+/* OG-Mode */
+.T4
+{
+    position: absolute;
+    top: 10px;
+    left: 3.1%;
+    max-width:15px;
 }
 
-.awesome
+/* imgs */
+.button1 
 {
     position: absolute;
-    top: 356px;
-    left: 75.2%;
-    max-width: 118.5px;
+    top: 38px;
+    left: 30.6%;
+    max-width: 167.5px;
 }
 
-.doom
+/*TEXT-grass*/
+.press
+{
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    background-color: #04AA6D; 
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 55px;
+    font-weight: bold;
+}
+.pressB
 {
     position: absolute;
-    top: 193px;
-    left: 78.7%;
-    max-width: 278px;
+    top: 1293.5px;
+    left: 28.5%;
 }
-.earth
+.dash
 {
     position: absolute;
-    top: 581.5px;
-    left: -2.3%;
-    max-width: 305px;
+    top: 1205px;
+    left: -12%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
 }
-
-.framed
+.dash0 
 {
     position: absolute;
-    top: 419.5px;
-    left: 9.7%;
-    max-width: 305px;
+    top: 1225px;    
+    left: -12%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
 }
-
+.dash1 
+{
+    position: absolute;
+    top: 1245px;
+    left: -1%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash2 
+{
+    position: absolute;
+    top: 1265px;
+    left: -12%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash3
+{
+    position: absolute;
+    top: 1285px;
+    left: -6.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash4
+{
+    position: absolute;
+    top: 1305px;
+    left: -20.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash5
+{
+    position: absolute;
+    top: 1325px;
+    left: -8.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash6
+{
+    position: absolute;
+    top: 1345px;
+    left: -10.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash7
+{
+    position: absolute;
+    top: 1365px;
+    left: -12.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash8
+{
+    position: absolute;
+    top: 1385px;
+    left: -3%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash9
+{
+    position: absolute;
+    top: 1405px;
+    left: -5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash10
+{
+    position: absolute;
+    top: 1425px;
+    left: -17%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash11
+{
+    position: absolute;
+    top: 1445px;
+    left: -3.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash12
+{
+    position: absolute;
+    top: 1465px;
+    left: -14.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash13
+{
+    position: absolute;
+    top: 1485px;
+    left: -2%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash14
+{
+    position: absolute;
+    top: 1505px;
+    left: -10.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash15
+{
+    position: absolute;
+    top: 1525px;
+    left: -2%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash16
+{
+    position: absolute;
+    top: 1545px;
+    left: -15%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
+.dash17
+{
+    position: absolute;
+    top: 1565px;
+    left: -7%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(45, 40, 154);
+    text-align: center;
+}
 
