@@ -92,15 +92,15 @@ body
 .file2
 {
     position: absolute;
-top: 274.5px;
-  left: 25.9%;
+    top: 239.5px;
+    left: 25.9%;
     max-width: 80px;
 }
 .txt2
 {
     position: absolute;
-   top: 317.5px;
-  left: 28.9%;
+    top: 281px;
+    left: 28.7%;
     transform: translateX(-50%);
 	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     font-size: 15px; 
@@ -141,6 +141,26 @@ top: 274.5px;
     position: absolute;
     top: 263px;
     left: 39.8%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+/* #4. intrabarf */
+.file5
+{
+    position: absolute;
+    top: 134.5px;
+    left: 33%;
+    max-width: 80px;
+}
+.txt5
+{
+    position: absolute;
+    top: 179.5px;
+    left: 35.8%;
     transform: translateX(-50%);
 	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     font-size: 15px; 
