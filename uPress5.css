@@ -1,0 +1,128 @@
+:root 
+{
+    --bg-color: #222222;
+    --text-color: rgb(255, 255, 255);
+    --bg-image: url('fllippedd\ copy.png');
+}
+body 
+{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    background-image: var(--bg-image);
+    background-size: 100%;
+    background-repeat: repeat;
+    transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+}
+
+/* THEMES */
+/* Mode1 */
+.theme1 
+{
+    --bg-color: #f0f0f0;
+    --text-color: #222222;
+    --bg-image: url('sc2.png');
+}
+.T1
+{
+    position: absolute;
+    top: 10px;
+    left: 1%;
+    max-width: 15px;
+}
+/* Mode2 */
+.theme2 
+{
+    --bg-color: #1e3a8a;
+    --text-color: #fbbf24;
+    --bg-image: url('sc3.png');
+}
+.T2
+{
+    position: absolute;
+    top: 10px;
+    left: 1.7%;
+    max-width: 15px;
+}
+/* Mode3 */
+.theme3 
+{
+    --bg-color: #164a16;
+    --text-color: #a3e635;
+    --bg-image: url('sc4.png');
+}
+.T3
+{
+    position: absolute;
+    top: 10px;
+    left: 2.4%;
+    max-width: 15px;
+}
+/* OG-Mode */
+.T4
+{
+    position: absolute;
+    top: 10px;
+    left: 3.1%;
+    max-width:15px;
+}
+
+/* BUTOONS */
+.button1 
+{
+    position: absolute;
+    top: 38px;
+    left: 30.6%;
+    max-width: 167.5px;
+}
+/* IMGS */
+.iDog
+{
+    position: absolute;
+    top: 990px;
+    left: 87.5%;
+    width: 6.5%;
+    opacity: 0%;
+}
+
+.text1
+{
+    position: absolute;
+    top:  493px;
+    left: 53.5%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 130px; 
+    font-weight: bold;
+    color: rgba(122, 159, 197, 0.843);
+}
+.at, .fairy, .dancer, .bf1
+{
+    position: fixed;
+}
+.at
+{
+    position: relative;
+    top: 769.5px;
+    left: 90.5%;
+    width: 7.5%;
+}
+.fairy
+{
+    position: relative;
+    top: 2302.5px;
+    left: 6.5%;
+    width: 10.5%;
+}
+.dancer 
+{  
+    position: relative;     
+    top: 2834px;
+    left: 5%;
+    width: 7.5%;
+}
+.bf1
+{
+    position: relative;
+    top: 1977.5px;
+    left: 6.5%;
+    width: 10.5%;
+}
