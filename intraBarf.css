@@ -309,3 +309,11 @@ body
     text-align: center;
 }
 
+/*imgs*/
+.wiitc
+{
+    position: absolute;
+    top: 209.5px;
+    left: 26%;
+    max-width: 80px;
+}
