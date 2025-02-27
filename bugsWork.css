@@ -92,15 +92,15 @@ body
 .file2
 {
     position: absolute;
-    top: 268.5px;
-  left: 26%;
+    top: 209.5px;
+    left: 26%;
     max-width: 80px;
 }
 .txt2
 {
     position: absolute;
-    top: 316.5px;
-    left: 28.8%;
+    top: 257.5px;
+    left: 28.9%;
     transform: translateX(-50%);
 	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     font-size: 15px; 
@@ -297,6 +297,25 @@ body
     position: absolute;
     top: 314.5px;
     left: 91%;
+    transform: translateX(-50%);
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.writing
+{
+    position: absolute;
+    top: 397.5px;
+    left: 90.5%;
+    max-width: 80px;
+}
+.write
+{
+    position: absolute;
+    top: 458px;
+    left: 93.9%;
     transform: translateX(-50%);
 	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     font-size: 15px; 
