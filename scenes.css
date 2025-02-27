@@ -1,0 +1,318 @@
+body 
+{
+    margin: 0;
+}
+
+canvas 
+{
+    display: block;
+}
+
+header 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(116, 122, 157, 0.9); 
+    z-index: 1000;
+    text-indent: 94.5px;
+}
+.background
+{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.bckimg
+{
+    display: block;
+    position: absolute;
+    top: 119px;
+    left: 170px;
+    width: 1257.5px;
+}
+.home
+{
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 21px;
+    width: 80px;
+}
+
+.title 
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 76.5px;
+    font-weight: bold;
+    color: rgb(8, 10, 131);
+    margin: 0;
+    margin-top: 8px;
+}
+.title2
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(51, 11, 55);
+    margin: 0;
+    text-indent: 80px;
+    margin-top: 106.5px;
+}
+.title02
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(51, 11, 55);
+    margin: 0;
+    text-indent: 391px;
+    margin-top: -23.5px;
+}
+.title022
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(51, 11, 55);
+    margin: 0;
+    text-indent: 567.5px;
+    margin-top: -23.5px;
+}
+.title3
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(51, 11, 55);
+    margin: 0;
+    text-indent: 200px;
+    margin-top: -170.5px;
+}
+.title4
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(51, 11, 55);
+    margin: 0;
+    text-indent: 200px;
+    margin-top: 750px;
+}
+.title5
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(51, 11, 55);
+    margin: 0;
+    text-indent: 200px;
+    margin-top: -15px;
+}
+.trinket, .home1, .CO, .rando, .scenes, .trinkIMG, .homeIMG, .COimg
+{
+    position: absolute;
+    top: 12%;
+    transform: translateY(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.trinkIMG, .homeIMG, .COimg
+{
+    position: absolute;
+    top: 32.5%;
+    transform: translateY(-50%);
+    max-width: 70.5px;
+}
+.trinket {
+    left: 310px; 
+}
+.trinkIMG
+{
+    left: 415.5px;
+}
+.home1 {
+    left: 221px; 
+}
+.scenes {
+    left: 712px; 
+}
+.rando {
+    left: 832px; 
+}
+
+.CO {
+    left: 487px;
+}
+.model1, .model2, .model3, .model4, .model5, .model6, .model7, .model8, .model9, .model10, .model11, .model12, .model13
+{
+    position: absolute;
+    top: 180px; 
+    max-width: 620px;
+}
+
+.model1 
+{
+    left: 80px;
+}
+
+.model2 
+{
+    left: 729px;
+}
+
+.model3
+{   
+    top: 664px;
+    left: 80px;
+}
+
+.model4
+{   
+    top: 664px;
+    left: 729px;
+}
+
+.model5
+{   
+    top: 520px;
+    left: 80px;
+}
+
+.model6
+{   
+    top: 520px;
+    left: 729px;
+}
+
+.model7
+{   
+    top: 520px;
+    left: 722.5px;
+}
+
+.model8
+{   
+    top: 520px;
+    left: 1044px;
+}
+
+.model9
+{   
+    top: 860px;
+    left: 80px;
+}
+
+.model10
+{   
+    top: 860px;
+    left: 401.5px;
+}
+
+.model11
+{   
+    top: 860px;
+    left: 722.5px;
+}
+
+.model12
+{   
+    top: 860px;
+    left: 1044px;
+}
+.text1, .text2
+{
+    position: absolute;
+    top: 596px;
+    transform: translateY(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.text1
+{
+    left: 80px;
+}
+.text2
+{
+    left: 728.5px;
+}
+.text3, .text4
+{
+    position: absolute;
+    top: 1077px;
+    transform: translateY(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.text3
+{
+    left: 80px;
+}
+.text4
+{
+    left: 401.5px;
+}
+.text5, .text6
+{
+    position: absolute;
+    top: 808.5px;
+    transform: translateY(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.text5
+{
+    left: 80px;
+}
+.text6
+{
+    left: 401.5px;
+}
+.text7
+{
+    left: 722.5px;
+}
+.text8
+{
+    left: 1044px;
+}
+.text9, .text10, .text11, .text12
+{
+    position: absolute;
+    top: 1151.5px;
+    transform: translateY(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.text9
+{
+    left: 80px;
+}
+.text10
+{
+    left: 401.5px;
+}
+.text11
+{
+    left: 722.5px;
+}
+.text12
+{
+    left: 1044px;
+}
