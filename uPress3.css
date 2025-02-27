@@ -2,7 +2,7 @@
 {
     --bg-color: #222222;
     --text-color: rgb(255, 255, 255);
-    --bg-image: url('site\ copy.png');
+    --bg-image: url('smut\ copy.png');
 }
 body 
 {
@@ -75,11 +75,11 @@ body
     max-width: 167.5px;
 }
 /* IMGS */
-.iDog
+.iam
 {
     position: absolute;
-    top: 7854px;
-    left: 87.5%;
+    top: 1149px;
+    left: 0%;
     width: 6.5%;
     opacity: 0%;
 }
@@ -93,36 +93,4 @@ body
     font-size: 130px; 
     font-weight: bold;
     color: rgba(122, 159, 197, 0.843);
-}
-.at, .fairy, .dancer, .bf1
-{
-    position: fixed;
-}
-.at
-{
-    position: relative;
-    top: 769.5px;
-    left: 90.5%;
-    width: 7.5%;
-}
-.fairy
-{
-    position: relative;
-    top: 2302.5px;
-    left: 6.5%;
-    width: 10.5%;
-}
-.dancer 
-{  
-    position: relative;     
-    top: 2834px;
-    left: 5%;
-    width: 7.5%;
-}
-.bf1
-{
-    position: relative;
-    top: 1977.5px;
-    left: 6.5%;
-    width: 10.5%;
 }
