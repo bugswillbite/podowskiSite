@@ -1,0 +1,28 @@
+:root 
+{
+    --bg-color: #222222;
+    --text-color: rgb(255, 255, 255);
+}
+.title1
+{
+    position: absolute;
+    top: -10px;
+    left: 1%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 30px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.title2
+{
+    position: absolute;
+    top: 35px;
+    left: 1%;
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 20px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
