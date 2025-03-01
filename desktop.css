@@ -1,4 +1,183 @@
-body
+:root
 {
-    background-image: url('background.jpg');
+    --bg-image: url('dtBG6.png');
+    --icon1: url('lady1.gif');
+    --icon2: url('lady2.gif');
+    --icon3: url('lady3.gif');
+    --icon4: url('lady4.gif');
+    --icon5: url('lady5.gif');
+    --icon6: url('lady6.gif');
+    --icon7: url('lady7.gif');
+    --icon8: url('lady8.gif');
 }
+:root .icon1 { top: 680.5%; left: 680%;}
+:root .icon2 { top: 866.5%; left: 1038%; }
+:root .icon3 { top: 380%; left: 872.5%; }
+:root .icon4 { top: 556%; left: 1169.5%; }
+:root .icon5 { top: 192%; left: 1139.5%; }
+:root .icon6 { top: 800.5%; left: 1737.5%; }
+:root .icon7 { top: 318.5%; left: 1564%; }
+:root .icon8 { top: 561%; left: 1546.5%; }
+
+.bottom
+{
+    position: absolute;
+    top: 862.5px;
+    opacity: 0;
+    width: 1%;
+
+}
+.filesIcon
+{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+body {
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-repeat: none;
+    transition: background-image 0.5s ease;
+}
+
+.icon-container {
+    position: relative; 
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden;
+}
+
+.icon
+{
+    position: absolute; 
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.icon1 { background-image: var(--icon1); }
+.icon2 { background-image: var(--icon2); }
+.icon3 { background-image: var(--icon3); }
+.icon4 { background-image: var(--icon4); }
+.icon5 { background-image: var(--icon5); }
+.icon6 { background-image: var(--icon6); }
+.icon7 { background-image: var(--icon7); }
+.icon8 { background-image: var(--icon8); }
+
+/* === POSITIONS === */
+
+/* OG */
+.original {
+    --bg-image: url('dtBG6.png');
+    --icon1: url('lady1.gif');
+    --icon2: url('lady2.gif');
+    --icon3: url('lady3.gif');
+    --icon4: url('lady4.gif');
+    --icon5: url('lady5.gif');
+    --icon6: url('lady6.gif');
+    --icon7: url('lady7.gif');
+    --icon8: url('lady8.gif');
+}
+
+.original .icon1 { top: 680.5%; left: 680%;}
+.original .icon2 { top: 866.5%; left: 1038%; }
+.original .icon3 { top: 380%; left: 872.5%; }
+.original .icon4 { top: 556%; left: 1169.5%; }
+.original .icon5 { top: 192%; left: 1139.5%; }
+.original .icon6 { top: 800.5%; left: 1737.5%; }
+.original .icon7 { top: 318.5%; left: 1564%; }
+.original .icon8 { top: 561%; left: 1546.5%; }
+
+/* THEME 1 */
+.theme1 {
+    --bg-image: url('dtBG7.png');
+    --icon1: url('fish1.gif');
+    --icon2: url('fish2.gif');
+    --icon3: url('fish3.gif');
+    --icon4: url('fish4.gif');
+    --icon5: url('fish5.gif');
+    --icon6: url('fish6.gif');
+    --icon7: url('fish7.gif');
+    --icon8: url('fish8.gif');
+}
+
+.theme1 .icon1 { top: 924.5%; left: 1632.5%; }
+.theme1 .icon2 { top: 1101%; left: 1954%; }
+.theme1 .icon3 { top: 577.5%; left: 1992.5%; }
+.theme1 .icon4 { top: 339%; left: 1738.5%; }
+.theme1 .icon5 { top: 633%; left: 1521%; }
+.theme1 .icon6 { top: 705.5%; left: 1239%; }
+.theme1 .icon7 { top: 197.5%; left: 1262.5%; }
+.theme1 .icon8 { top: 994%; left: 1318%; }
+
+/* THEME 2 */
+.theme2 {
+    --bg-image: url('dtBG5.png');
+    --icon1: url('planet1.gif');
+    --icon2: url('planet2.gif');
+    --icon3: url('planet2\ copy.gif');
+    --icon4: url('planet4.gif');
+    --icon5: url('planet5.gif');
+    --icon6: url('planet6\ copy.gif');
+    --icon7: url('planet7\ copy.gif');
+    --icon8: url('planet5\ copy.gif');
+}
+
+.theme2 .icon1 { top: 636%; left: 1079%;}
+.theme2 .icon2 { top: 356%; left: 733.5%; }
+.theme2 .icon3 { top: 690.5%; left: 498.5%; }
+.theme2 .icon4 { top: 391%; left: 1548.5%; }
+.theme2 .icon5 { top: 1023.5%; left: 686.5%; }
+.theme2 .icon6 { top: 1052%; left: 1241%; }
+.theme2 .icon7 { top: 212.5%; left: 1101%; }
+.theme2 .icon8 { top: 743%; left: 1594.5%; }
+
+/* THEME 3 */
+.theme3 {
+    --bg-image: url('dtBG4.png');
+    --icon1: url('bee1.gif');
+    --icon2: url('bee2.gif');
+    --icon3: url('bee3.gif');
+    --icon4: url('bee4.gif');
+    --icon5: url('beee5.gif');
+    --icon6: url('bee6.gif');
+    --icon7: url('bee7.gif');
+    --icon8: url('bee8.gif');
+}
+
+.theme3 .icon1 { top: 665.5%; left: 1262%; }
+.theme3 .icon2 { top: 357.5%; left: 384.5%; }
+.theme3 .icon3 { top: 910%; left: 1800%; }
+.theme3 .icon4 { top: 116%; left: 819%; }
+.theme3 .icon5 { top: 293.5%; left: 1496%; }
+.theme3 .icon6 { top: 869%; left: 501%; }
+.theme3 .icon7 { top: 1147%; left: 1146%; }
+.theme3 .icon8 { top: 515%; left: 962.5%; }
+
+/* THEME 4 */
+.theme4 {
+    --bg-image: url('dtBG1.png');
+    --icon1: url('cry1.gif');
+    --icon2: url('cry2.gif');
+    --icon3: url('cry3.gif');
+    --icon4: url('cry4.gif');
+    --icon5: url('cry5.gif');
+    --icon6: url('');
+    --icon7: url('');
+    --icon8: url('');
+}
+
+.theme4 .icon1 { top: 985%; left: 1399.5%; }
+.theme4 .icon2 { top: 696%; left: 1381.5%; }
+.theme4 .icon3 { top: 709%;  left: 530.5%;  }
+.theme4 .icon4 { top: 836.5%; left: 1394.5%; }
+.theme4 .icon5 {top: 872.5%; left: 547%; }
+.theme4 .icon6 { top: 869%; left: 501%; }
+.theme4 .icon7 { top: 1147%; left: 1146%; }
+.theme4 .icon8 { top: 515%; left: 962.5%; }
+
