@@ -11,12 +11,59 @@ canvas
 header 
 {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: -60px;
+    left: 200.2px;
     width: 100%;
-    background: rgba(116, 122, 157, 0.9); 
+    background: rgb(153, 158, 185); 
+    z-index: 1000;
+    text-indent: -205.5px;
+    height: 110.5px;
+    padding-left: 20px;
+    border-bottom: 5px solid rgb(44, 48, 55);
+    box-shadow: inset 2px 3px 10px #3a3937;
+}
+.container
+{
+    position: absolute;
+    top: 69.5px;
+    width: 344.5px;
+    left: 215px;
+    height: 48.5px;
+    border: 4px solid rgb(44, 48, 55);
+    background: rgb(179, 182, 200); 
+}
+.explain
+{
+    position: absolute;
+    top: 69.5px;
+    width: 788px;
+    left: 578.5px;
+    height: 48.5px;
+    border: 4px solid rgb(44, 48, 55);
+    background: rgb(179, 182, 200); 
+}
+.titleTR
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(32, 34, 38);
+    margin-left: 9px;
+    margin-top: 7.5px;
+}
+.margin
+{
+    position: fixed;
+    top: -17px;
+    left: -6.5px;
+    width: 201.5px;
+    background: rgb(153, 158, 185); 
     z-index: 1000;
     text-indent: 94.5px;
+    height: 110%; 
+    border-right: 5px solid rgb(44, 48, 55);
+    box-shadow: inset 10px 5px 20px #3a3937;
+
 }
 .background
 {
@@ -37,33 +84,42 @@ header
     left: 170px;
     width: 1257.5px;
 }
+body
+{
+    background-color: rgb(63, 66, 81);
+}
 .home
 {
     display: block;
     position: absolute;
-    top: 2px;
-    left: 21px;
-    width: 80px;
-}
+    top: 62px;
+    left: -200px;
+    width: 200px;
+    padding-bottom: 6px;
+    border-bottom: 5px solid rgb(44, 48, 55);
+    box-shadow: 0 8px 6px -6px #3a3937;
 
+}
 .title 
 {
     font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-    font-size: 76.5px;
+    font-size: 29.5px;
     font-weight: bold;
-    color: rgb(8, 10, 131);
+    color: rgb(32, 34, 38);
     margin: 0;
-    margin-top: 8px;
+    text-indent: 13.5px;
+    margin-top: 5px;
 }
 .title2
 {
     font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-    font-size: 50px;
+    font-size: 29.5px;
     font-weight: bold;
-    color: rgb(51, 11, 55);
+    color: rgb(32, 34, 38);
     margin: 0;
-    text-indent: 80px;
-    margin-top: 106.5px;
+    margin-top: 0px;
+    text-indent: 11.5px;
+    margin-top: 4.5px;
 }
 .title02
 {
@@ -115,123 +171,141 @@ header
     text-indent: 200px;
     margin-top: -15px;
 }
-.trinket, .home1, .CO, .rando, .scenes, .trinkIMG, .homeIMG, .COimg
+.trinket, .home1, .CO, .rando, .scenes
 {
     position: absolute;
-    top: 12%;
+    top: 46.5%;
     transform: translateY(-50%);
     font-family: "Courier New", Courier, monospace;
-    font-size: 25px;
+    font-size: 19px;
     font-weight: bold;
     color: rgb(0, 0, 0);
-}
-.trinkIMG, .homeIMG, .COimg
-{
-    position: absolute;
-    top: 32.5%;
-    transform: translateY(-50%);
-    max-width: 70.5px;
-}
+} 
 .trinket {
-    left: 310px; 
-}
-.trinkIMG
-{
-    left: 415.5px;
+    left: 289.5px; 
 }
 .home1 {
     left: 221px; 
 }
 .scenes {
-    left: 712px; 
+    left: 600.5px; 
 }
 .rando {
-    left: 832px; 
+    left: 690.5px; 
 }
-
 .CO {
-    left: 487px;
+    left: 427.5px;
 }
+/*-CONTAINERS-*/
+.TC1, .TC2, .TC3, .TC4, .TC5, .TC6, .TC7, .TC8, .TC9, .TC10, .TC11, .TC12
+{
+    position: absolute;
+    height: 48.5px;
+    border: 4px solid rgb(44, 48, 55);
+    background: rgb(179, 182, 200); 
+    width: 347px;
+    height: 31px;
+}
+/*-top align-*/
+.TC1, .TC2, .TC3 
+{
+    top:  401px;
+}
+.TC4, .TC5, .TC6
+{
+    top: 919.5px;
+}
+.TC7, .TC8, .TC9
+{
+    top: 1330.5px;
+}
+.TC10, .TC11, .TC12
+{
+    top: 1742.5px;
+}
+/*-left align-*/
+.TC1, .TC4, .TC7, .TC10
+{
+    left: 233.5px;
+}
+.TC2, .TC5, .TC8, .TC11
+{
+    left: 619px;
+}
+.TC3, .TC6, .TC9, .TC12
+{
+    left: 1005.5px;
+}
+/* -MODELS LAYOUT- */
 .model1, .model2, .model3, .model4, .model5, .model6, .model7, .model8, .model9, .model10, .model11, .model12, .model13
 {
     position: absolute;
-    top: 180px; 
-    max-width: 620px;
-}
-
+    top: 143.5px; 
+    max-width: 350px;
+    max-height: 239px;
+    border: 4px solid rgb(44, 48, 55);}
 .model1 
 {
-    left: 80px;
+    left: 235.5px
 }
-
 .model2 
 {
-    left: 729px;
+    left: 620px;
 }
-
 .model3
 {   
-    top: 664px;
-    left: 80px;
+    left: 1006.5px;
 }
-
 .model4
 {   
-    top: 664px;
-    left: 729px;
+    top: 453px;
+    left: 235.5px
 }
-
 .model5
 {   
-    top: 520px;
-    left: 80px;
+    top: 453px;
+    left: 620px;
 }
-
 .model6
 {   
-    top: 520px;
-    left: 729px;
+    top: 453px;
+    left: 1006.5px;
 }
-
 .model7
 {   
-    top: 520px;
-    left: 722.5px;
+    top: 995px;
+    left: 235.5px
 }
-
 .model8
 {   
-    top: 520px;
-    left: 1044px;
+    top: 995px;
+    left: 620px;
 }
-
 .model9
 {   
-    top: 860px;
-    left: 80px;
+    top: 995px;
+    left: 1006.5px;
 }
-
 .model10
 {   
-    top: 860px;
-    left: 401.5px;
+    top: 1413.5px;
+    left: 235.5px
 }
-
 .model11
 {   
-    top: 860px;
-    left: 722.5px;
+    top: 1413.5px;
+    left: 620px;
 }
-
 .model12
 {   
-    top: 860px;
-    left: 1044px;
+    top: 1413.5px;
+    left: 1006.5px;
 }
-.text1, .text2
+/* -TEXT4MODELS- */
+.text1, .text2, .text3
 {
     position: absolute;
-    top: 596px;
+    top: 397.5px;
     transform: translateY(-50%);
     font-family: "Courier New", Courier, monospace;
     font-size: 22px;
@@ -240,79 +314,79 @@ header
 }
 .text1
 {
-    left: 80px;
+    left: 241px;
 }
 .text2
 {
-    left: 728.5px;
-}
-.text3, .text4
-{
-    position: absolute;
-    top: 1077px;
-    transform: translateY(-50%);
-    font-family: "Courier New", Courier, monospace;
-    font-size: 22px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+    left: 628px;
 }
 .text3
 {
-    left: 80px;
+    left: 1012px;
+}
+.text4, .text5, .text6
+{
+    position: absolute;
+    top: 935.5px;
+    transform: translateY(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 .text4
 {
-    left: 401.5px;
-}
-.text5, .text6
-{
-    position: absolute;
-    top: 808.5px;
-    transform: translateY(-50%);
-    font-family: "Courier New", Courier, monospace;
-    font-size: 22px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+    left: 241px;
 }
 .text5
 {
-    left: 80px;
+    left: 628px;
 }
 .text6
 {
-    left: 401.5px;
+    left: 1012px;
 }
-.text7
-{
-    left: 722.5px;
-}
-.text8
-{
-    left: 1044px;
-}
-.text9, .text10, .text11, .text12
+.text7, .text8, .text9
 {
     position: absolute;
-    top: 1151.5px;
+    top: 1347px;
     transform: translateY(-50%);
     font-family: "Courier New", Courier, monospace;
     font-size: 22px;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
+.text7
+{
+    left: 241px;
+}
+.text8
+{
+    left: 628px;
+}
 .text9
 {
-    left: 80px;
+    left: 1012px;
+}
+.text10, .text11, .text12
+{
+    position: absolute;
+    top:1767px;
+    transform: translateY(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
 }
 .text10
 {
-    left: 401.5px;
+    left: 241px;
 }
 .text11
 {
-    left: 722.5px;
+    left: 628px;
 }
 .text12
 {
-    left: 1044px;
+    left: 1012px;
 }
