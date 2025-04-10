@@ -1,0 +1,425 @@
+/* MAIN */
+header 
+{
+    position: fixed;
+    top: -60px;
+    left: 200.2px;
+    width: 100%;
+    background: rgb(153, 158, 185); 
+    z-index: 1000;
+    text-indent: -205.5px;
+    height: 110.5px;
+    padding-left: 20px;
+    border-bottom: 5px solid rgb(44, 48, 55);
+    box-shadow: inset 2px 3px 10px #3a3937;
+}
+.margin
+{
+    position: fixed;
+    top: -17px;
+    left: -6.5px;
+    width: 201.5px;
+    background: rgb(153, 158, 185); 
+    z-index: 1000;
+    text-indent: 94.5px;
+    height: 110%; 
+    border-right: 5px solid rgb(44, 48, 55);
+    box-shadow: inset 10px 5px 20px #3a3937;
+
+}
+body
+{
+    background-color: rgb(63, 66, 81);
+}
+/* SIDEBAR */
+.home
+{
+    display: block;
+    position: absolute;
+    top: 62px;
+    left: -200px;
+    width: 200px;
+    padding-bottom: 6px;
+    border-bottom: 5px solid rgb(44, 48, 55);
+    box-shadow: 0 8px 6px -6px #3a3937;
+}
+.trinket, .home1, .CO, .rando, .scenes
+{
+    position: absolute;
+    top: 46.5%;
+    transform: translateY(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.trinket {
+    left: 289.5px; 
+}
+.home1 {
+    left: 221px; 
+}
+.scenes {
+    left: 600.5px; 
+}
+.rando {
+    left: 690.5px; 
+}
+.CO {
+    left: 427.5px;
+}
+
+/* MAIN IMG */
+.image
+{
+    position: absolute;
+    top: 69.5px;
+    width: 589.50px;
+    left: 212px;
+    border: 4px solid rgb(44, 48, 55);
+}
+.imageUI
+{
+    position: absolute;
+    top: 62px;
+    width: 731px;
+    left: 206.5px;
+    border: 4px solid rgb(44, 48, 55);
+
+}
+.image0C
+{
+    position: absolute;
+    top: 69.5px;
+    width: 731px;
+    left: 215.5px;
+    border: 4px solid rgb(44, 48, 55);
+
+}
+.image0C2
+{
+    position: absolute;
+    top: 69.5px;
+    width: 815.5px;
+    left: 215.5px;
+    border: 4px solid rgb(44, 48, 55);
+
+}
+.image-container 
+{
+    position: absolute;
+}
+
+/* BACK/FWD ARROWS */
+.AN
+{
+    position: absolute;
+    top: 3px;
+    width: 62.5px;
+    left: 4px;
+}
+.next 
+{
+    position: absolute;
+    top: 677.5px;
+    left: 93.5%;
+    height: 38px;
+    width: 66.5px;
+    background-color: rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+}
+.AB
+{
+    position: absolute;
+    top: 2px;
+    width: 62.5px;
+    left: 0px;
+}
+.back
+{
+    position: absolute;
+    top: 677.5px;
+    left: 15.25%;
+    height: 38px;
+    width: 66.5px;
+    background:rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+}
+.AN1
+{
+    position: absolute;
+    top: 3px;
+    width: 62.5px;
+    left: 4px;
+}
+.next1
+{
+    position: absolute;
+    top: 617.5px;
+    left: 93.5%;
+    height: 38px;
+    width: 66.5px;
+    background-color: rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+}
+.AB1
+{
+    position: absolute;
+    top: 2px;
+    width: 62.5px;
+    left: 0px;
+}
+.back1
+{
+    position: absolute;
+    top: 617.5px;
+    left: 15.25%;
+    height: 38px;
+    width: 66.5px;
+    background:rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+}
+.AN2
+{
+    position: absolute;
+    top: 3px;
+    width: 62.5px;
+    left: 4px;
+}
+.next2
+{
+    position: absolute;
+    top: 654.5px;
+    left: 93.5%;
+    height: 38px;
+    width: 66.5px;
+    background-color: rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+}
+.AB2
+{
+    position: absolute;
+    top: 2px;
+    width: 62.5px;
+    left: 0px;
+}
+.back2
+{
+    position: absolute;
+    top: 654.5px;
+    left: 15.25%;
+    height: 38px;
+    width: 66.5px;
+    background:rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+}
+/* RETURN ARROW */
+.arrow 
+{
+    position: absolute;
+    top: 180.5px;
+    width: 83px;
+    left: 98.5px;
+}
+/* SCROLL/SLIDESHOW */
+.arrow-button 
+{
+    position: absolute;
+    top: 290px;
+    left: 63.3%;
+    transform: translateX(-50%);
+    background: rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+    font-size: 32px;
+}
+.arrow-buttonleft
+{
+    position: absolute;
+    top: 290px;
+    left: 17.8%;
+    transform: translateX(-50%);
+    background:rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+    font-size: 32px;
+}
+.arrow-button2
+{
+    position: absolute;
+    top: 269px;
+    left: 63.2%;
+    transform: translateX(-50%);
+    background: rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+    font-size: 32px;
+}
+.arrow-buttonleft2
+{
+    position: absolute;
+    top: 269px;
+    left: 17.8%;
+    transform: translateX(-50%);
+    background:rgb(179, 182, 200);
+    border: 4px solid rgb(44, 48, 55);
+    color: rgb(44, 48, 55);
+    font-size: 32px;
+}
+.container
+{
+    position: absolute;
+    top: 69.5px;
+    width: 285px;
+    left: 817.5px;
+    border: 4px solid rgb(44, 48, 55);
+    background: rgb(179, 182, 200); 
+}
+.container2
+{
+    position: absolute;
+    top: 69.5px;
+    width: 285px;
+    left: 966px;
+    padding-left: 10px;
+  padding-bottom: 10px;
+    border: 4px solid rgb(44, 48, 55);
+    background: rgb(179, 182, 200); 
+}
+.container3
+{
+    position: absolute;
+    top: 69.5px;
+    width: 285px;
+    left: 1054px;
+    border: 4px solid rgb(44, 48, 55);
+    background: rgb(179, 182, 200); 
+}
+.text1, .text2, .text3, .text4, .text5, .T301
+{
+    color: rgb(32, 34, 38);
+}
+.text
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 30.5px;
+    font-weight: bold;
+    margin:0;
+    margin-top: 0px;
+    text-indent: 2.5px;
+    margin-top: 1px;
+}
+.text2 {
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 0px;
+    text-indent: 2.5px;
+    margin-top: -1px;
+}
+.text3
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 0px;
+    text-indent: 2.5px;
+    margin-top: 3px;
+}
+.text5
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 0px;
+    text-indent: 2.5px;
+    margin-top: 5px;
+}
+.bottom
+{
+    position: absolute;
+    bottom: 680px;
+    width: 1px;
+    left: 222px;
+    opacity: 0%;
+}
+.bottomDV
+{
+    position: absolute;
+    top: 666.5px;
+    left: 1045px;
+    width: 127.5px;
+    opacity: 0%;
+}
+.bottomCO
+{
+    position: absolute;
+    top: 612.5px;
+    left: 1045px;
+    width: 127.5px;
+    opacity: 0%;
+}
+.video1
+{
+    position: absolute;
+    top: 237.5px;
+    left: 1045px;
+    border: 2px solid grey;
+}
+.video
+{
+    position: absolute;
+    top: 331px;
+    left: 877px;
+    border: 2px solid grey;
+}
+.vid1contain
+{
+    position: absolute;
+    top: 210.5px;
+    width: 346px;
+    height: 446px;
+    left: 1019.5px;
+    border: 4px solid rgb(44, 48, 55);
+    background: rgb(179, 182, 200);
+}
+.vid2contain
+{
+    width: 518px;
+    height: 352px;
+    position: absolute;
+    top: 305px;
+    left: 850.5px;
+    border: 4px solid rgb(44, 48, 55);
+      background:
+    rgb(179, 182, 200);
+}
+.text4
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 0px;
+    text-indent: 2.5px;
+    margin-top: 7px;
+}
+.T301
+{
+    font-family: "Courier New", Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15.5px;
+    font-weight: bold;
+    margin: 0;
+    margin-top: 0px;
+    text-indent: 30.5px;
+    margin-top: 5px;
+}
