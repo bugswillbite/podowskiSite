@@ -26,9 +26,21 @@ body
 .T1
 {
     position: absolute;
-    top: 10px;
-    left: 1%;
-    max-width: 15px;
+    top: 78.5px;
+    left: 90.5%;
+    max-width: 78.5px;
+}
+.themeText4
+{
+    position: absolute;
+    top: 121px;
+    left: 93.3%;
+    transform: translateX(-50%);
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 /* Mode2 */
 .theme2 
@@ -40,9 +52,21 @@ body
 .T2
 {
     position: absolute;
-    top: 10px;
-    left: 1.7%;
-    max-width: 15px;
+    top: 150px;
+    left: 58.2%;
+    max-width: 78.5px;
+}
+.themeText2
+{
+    position: absolute;
+    top: 192px;
+    left: 61%;
+    transform: translateX(-50%);
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 /* Mode3 */
 .theme3 
@@ -54,17 +78,41 @@ body
 .T3
 {
     position: absolute;
-    top: 10px;
-    left: 2.4%;
-    max-width: 15px;
+    top: 362px;
+    left: 26.9%;
+    max-width: 78.5px;
+}
+.themeText3
+{
+    position: absolute;
+    top: 405.5px;
+    left: 29.8%;
+    transform: translateX(-50%);
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 /* OG-Mode */
 .T4
 {
     position: absolute;
-    top: 10px;
-    left: 3.1%;
-    max-width:15px;
+    top: 279.5px;
+    left: 16.5%;
+    max-width: 78.5px;
+}
+.themeText1
+{
+    position: absolute;
+    top: 323.5px;
+    left: 19.4%;
+    transform: translateX(-50%);
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center; 
 }
 
 /* FILE ICONS // TEXT */
