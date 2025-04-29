@@ -1,19 +1,804 @@
-.buggie 
+body 
 {
-    width: 20%;
-    margin-left: 77%;
-    margin-top: 28px;
-    position: relative;
+    background-image: url(CloudBack2.png);
+    background-size: 100%;
+    position: absolute;
+}
+
+/* TEXT- All About Bugs */
+.start /*container*/
+{
+    position: absolute;
+    width: 315px;
+    margin-left: 77.5px;
+    margin-top: 0.5px;
+    z-index: 11;
+}
+.title /*text*/
+{
+    position: absolute;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 61.5px;
+    margin-left: -67px;
+    margin-top: 8.5px;
+    z-index: 11;
+}
+mark /*highlight color*/
+{
+    background: rgb(213, 94, 213)!important
+}
+.title2 /*text*/
+{
+    position: absolute;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 61.5px;
+    margin-left: -58.5px;
+    margin-top: 15px;
+    z-index: 11;
+}
+mark2 /*highlight color*/
+{
+    background: rgb(20, 19, 20)!important
+}
+
+/* CLOUD - CV */
+.CVbubble /*container*/
+{
+    position: absolute;
+    width: 593px;
+    margin-left: 435px;
+    margin-top: 19px;
+    z-index: 10;
+    cursor: pointer;
+}
+.CV /*text*/
+{
+    position: absolute;
+    font-family: Consolas, Courier, monospace;
+    font-size: 30.5px;
+    margin-left: -4.5px;
+    margin-top: 19px;
+    z-index: 11;
+}
+.cloudCV /*image*/
+{
+    position: absolute;
+    width: 125px;
+    margin-left: -35px;
+    margin-top: -10px;
+    z-index: 9;;
+}
+
+/* CLOUD - resume */
+.RSbubble /*container*/
+{
+    position: absolute;
+    width: 593px;
+    margin-left: 579.5px;
+    margin-top: 40.5px;
+    z-index: 10;
+    cursor: pointer;
+}
+.RS /*text*/
+{
+    position: absolute;
+    font-family: Consolas, Courier, monospace;
+    font-size: 24px;
+    margin-left: -25.5px;
+    margin-top: 27px;
+    z-index: 11;
+}
+.cloudRS /*image*/
+{
+    position: absolute;
+    width: 183.5px;
+    margin-left: -62.5px;
+    margin-top: -10px;
+    z-index: 9;
+    height: 117px;
+}
+
+
+/* HEART - artist statement */
+.ASbubble /*container*/
+{
+    position: absolute;
+    width: 641.5px;
+    margin-left: 235.5px;
+    margin-top: 141.5px;
+    z-index: 10;
+    cursor: pointer;
+}
+.AS /*text*/
+{
+    position: absolute;
+    font-family: Consolas, Courier, monospace;
+    font-size: 19px;
+    margin-left: -34px;
+    margin-top: 52px;
+    z-index: 11;
+}
+.heartAS /*image*/
+{
+    position: absolute;
+    width: 192px;
+    margin-left: -81px;
+    margin-top: 21.5px;
+    z-index: 9;
+    height: 108px;
+}
+
+/* TEXT BUBBLE - about */
+.chat-bubble /*container*/
+{
+    position: absolute;
+    width: 347.5px;
+    margin-bottom: 10px;
+    margin-left: 15.5px;
+    margin-top: 312px;
+    z-index: 20;
+}  
+.bubble /*chat bubble img*/
+{
+    position: absolute;
+    max-width: 391.5px;
+    margin-left: -16.5px;
+    margin-top: -74px;
+}
+.bubbletext /*text*/
+{
+    position: absolute;
+    font-family: Consolas, Courier, monospace;
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: 17.5px;
+}
+.buggie /*bug dance gif*/
+{
+    width: 319px;
+    margin-left: 20.5%;
+    margin-top: 145px;
+    position: absolute;
     display: block;
 }
-.text1
+
+/*LAPTOP*/
+.computer /*container*/
 {
-    font-size: 3em;
-    margin: 10;
-    margin-left: 7%;
-    text-transform: uppercase;
-    font-weight: bold;
-    opacity: 100;
-    font-family: Consolas, Courier, monospace;  
-    position: relative;
+    width: 1427px;
+    margin-left: -2%;
+    margin-top: 5.5px;
+    position: absolute;
+    display: block;
 }
+.myself /*image*/
+{
+    width: 1427px;
+    margin-left: -2%;
+    margin-top: 5.5px;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+}
+
+/*Appropriation & Archive*/
+.AnA /*Container*/
+{
+    position: absolute;
+    width: 593px;
+    margin-left: 31px;
+    margin-top: -7px;
+}
+.App /*appropriation & archive*/
+{
+    position: absolute;
+    font-size: 125.5px;
+    margin-left: 31px;
+    margin-top: 1025.5px;
+    font-family: Impact, sans-serif;
+}
+.every /*everything*/
+{
+    position: absolute;
+    font-size: 93px;
+    margin-left: 31px;
+    margin-top: 1340px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.every2 /*is*/
+{
+    position: absolute;
+    font-size: 93px;
+    margin-left: 485.5px;
+    margin-top: 1340px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.every3 /*the*/
+{
+    position: absolute;
+    font-size: 93px;
+    margin-left: 568.5px;
+    margin-top: 1340px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.every4 /*archive*/
+{
+    position: absolute;
+    font-size: 93px;
+    margin-left: 706.5px;
+    margin-top: 1340px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 20;
+}
+.every5 /*explanation*/
+{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 40.5px;
+    margin-top: 1453px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*My Process*/
+.MyP /*container*/
+{
+    position: absolute;
+    width: 697px;
+    margin-left: 677.5px;
+    margin-top: 1442.5px;
+    border: 5px solid black;
+    height: 579px;
+}
+.process /*title*/
+{
+    position: absolute;
+    font-size: 55px;
+    margin-left: 10px;
+    margin-top: 8.5px;
+    margin-right: 10px;
+    margin-bottom: 11.5px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: italic; 
+}
+.paragraph1 /*text*/
+{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 65px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.collection /*container: Collection*/
+{
+    position: absolute;
+    margin-left: 16px;
+    margin-top: 54px;
+    width: 698px;
+}
+.title1 /*text: Collection*/
+{
+    position: absolute;
+    font-size: 60px;
+    margin-left: 62.5px;
+    margin-top: 162.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    border-top: 5px black solid;
+}
+.title01 /*text: with intention, collection as a practice*/
+{
+    position: absolute;
+    font-size: 25px;
+    margin-left: 60.9px;
+    margin-top: 226.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    border-bottom: 5px black solid;
+}
+.paragraph2 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 21.5px;
+    margin-top: 321px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.paragraph02 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 32px;
+    margin-top: 415.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.paragraph002 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 60.5px;
+    margin-top: 468.5px;
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.paragraph0002 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 72px;
+    margin-top: 486px;
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*My Practice*/
+.Practice01 /*container*/
+{
+    position: absolute;
+    width: 478.5px;
+    margin-left: 1.5px;
+    margin-top: 754px;
+    height: 571.5px;
+}
+.titlePr /*text: "my practice"*/
+{
+    position: absolute;
+    font-size: 65.5px;
+    margin-left: 31px;
+    margin-top: 1025.5px;
+    font-family: Impact, sans-serif;
+}
+.titlePr2 /*text: mediums*/
+{
+    position: absolute;
+    font-size: 21.5px;
+    margin-left: 35.5px;
+    margin-top: 1103px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+}
+.Practice02 /*container*/
+{
+    position: absolute;
+    width: 626px;
+    margin-left: 350px;
+    margin-top: 576.5px;
+    height: 63px;
+}
+.begin /* text: "in the beginning" */
+{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 10.5px;
+    margin-top: 15px;
+    font-family: 'Star Wars', sans-serif;
+    -webkit-text-stroke: 3px black;
+    color: rgb(123, 187, 74);
+}
+.examp /*penguin furryBones*/
+{
+    position: absolute;
+    width: 436px;
+    margin-left: -266px;
+    margin-top: 283px;
+    z-index: 20;
+    cursor: pointer;
+}
+
+/*Mediums*/
+.Practice03 /*container - webDesign*/
+{
+    position: absolute;
+    width: 1336.5px;
+    margin-left: -158px;
+    margin-top: 1887px;
+    height: 571.5px;
+}
+.webD /*image - webDesign*/
+{
+    position: absolute;
+    margin-left: 161px;
+    margin-top: 52.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 448px;
+    border: 1px solid black;
+}
+.webDes /*text - webDesign*/
+{
+    position: absolute;
+    font-size: 54.5px;
+    margin-left: 333px;
+    margin-top: 26px;
+    font-family: "Faustina", serif;
+    font-optical-sizing: auto;
+    -webkit-text-stroke: 1px black;
+    color: rgb(238, 160, 205);
+}
+.webDes2 /*decoratived dots*/
+{
+    position: absolute;
+    font-size: 54.5px;
+    margin-left: 169px;
+    margin-top: 309.5px;
+    font-family: "Faustina", serif;
+    font-optical-sizing: auto;
+    -webkit-text-stroke: 1px black;
+    color: rgb(238, 160, 205);
+}
+.arrow /* web des -> programming */
+{
+    position: absolute;
+    font-size: 133px;
+    margin-left: 589.5px;
+    margin-top: 292.5px;
+}
+.prog /*image - programming*/
+{
+    position: absolute;
+    margin-left: 701px;
+    margin-top: 423.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 448px;
+    border: 1px solid black;
+}
+.progT /*text - programming*/
+{
+    position: absolute;
+    font-size: 52.5px;
+    margin-left: 708.5px;
+    margin-top: 359px;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    color: black;
+    font-style: normal;
+}
+.myThreeD /*3D - img of text*/
+{
+    position: absolute;
+    width: 145.5px;
+    margin-left: 914.5px;
+    margin-top: 154px;
+    z-index: 20;
+    cursor: pointer;
+}
+.threeD /*3D - text (modelling) */
+{
+    position: absolute;
+    font-size: 96.5px;
+    margin-left: 1045px;
+    margin-top: 161px;
+    font-family: "Maiden Orange", serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke: 2px black;
+    color: rgba(0, 0, 0, 0);
+}
+.dots /*3D - text (dots/***, horizontal) */
+{
+    position: absolute;
+    font-size: 60.5px;
+    margin-left: 1351px;
+    margin-top: 204px;
+    font-family: "Maiden Orange", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.dots2 /*3D - text (dots/***, vertical) */
+{
+    position: absolute;
+    font-size: 60.5px;
+    margin-left: 1361.5px;
+    margin-top: 395.5px;
+    font-family: "Maiden Orange", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    transform: rotate(90deg);
+}
+.wiiDog /*image - wiiDog*/
+{
+    position: absolute;
+    margin-left: 1119px;
+    margin-top: 353.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 475px;
+}
+.webD /*image - webDesign*/
+{
+    position: absolute;
+    margin-left: 161px;
+    margin-top: 52.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 448px;
+    border: 1px solid black;
+}
+.webDes /*text - webDesign*/
+{
+    position: absolute;
+    font-size: 54.5px;
+    margin-left: 333px;
+    margin-top: 26px;
+    font-family: "Faustina", serif;
+    font-optical-sizing: auto;
+    -webkit-text-stroke: 1px black;
+    color: rgb(238, 160, 205);
+}
+.video /*container*/
+{
+    position: absolute;
+    margin-left: 166px;
+    margin-top: 361.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 425px;
+    height: 428px;
+    border: 3px solid black;
+}
+.videoEX /* image */
+{
+    position: absolute;
+    margin-left: -56.5px;
+    margin-top: 145px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 660px;
+}
+.videoT /*text*/
+{
+    position: absolute;
+    font-size: 99px;
+    margin-left: 2.5px;
+    margin-top: -26.5px;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    color: rgb(19, 0, 185);
+    font-style: normal;
+}
+.vW
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 6px;
+    margin-top: 40px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+.uTube /*image -circle youtube*/
+{
+    position: absolute;
+    margin-left: 532.5px;
+    margin-top: 488px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 116px;
+    z-index: 5;
+}
+.uTube2 /*image -circle youtube*/
+{
+    position: absolute;
+    margin-left: 606px;
+    margin-top: 600.5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 76.5px;
+    z-index: 5;
+}
+
+.Practice04 /*container - text 4 mediums*/
+{
+    position: absolute;
+    width: 922px;
+    margin-left: 460.5px;
+    margin-top: 2121px;
+    height: 626.5px;
+}
+.webW /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: -2px;
+    margin-top: 31.5px;
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.webW1 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: -4.5px;
+    margin-top: 48px;   
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.webW2 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: -2px;
+    margin-top: 64.5px;
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.webW3 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 7.5px;
+    margin-top: 82px;
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.webW4 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 26.5px;
+    margin-top: 99.5px;
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.webW5 /*text*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 47px;
+    margin-top: 117px;
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.tdWC /*contain - (within)*/
+{
+    position: absolute;
+    width: 676px;
+    margin-left: 240px;
+    margin-top: 22.5px;
+    height: 24.5px;
+    border: 2px black solid;
+    background-color: rgb(157, 207, 158);
+}
+.tdW /*text -3d*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 7px;
+    margin-top: 2px;
+    margin-right: -1px;
+    margin-bottom: 10px;
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.tdW1 /*text -3d*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 585px;
+    margin-top: 63px;
+    margin-right: -1px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.tdW2 /*text -3d*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 542px;
+    margin-top: 187px;
+    margin-right: -1px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.gdW /*text -gameDev*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 542px;
+    margin-top: 384.5px;
+    margin-right: -1px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.gdW1 /*text -gameDev*/
+{
+    position: absolute;
+    font-size: 17px;
+    margin-left: 81.5px;
+    margin-top: 524.5px;
+    margin-right: -1px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*popup*/
+.popup-container {
+    display: none; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #1e1e1e;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    z-index: 20;
+}
+.popup-container img {
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+.popup-close {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
