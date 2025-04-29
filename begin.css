@@ -1,0 +1,86 @@
+body 
+{
+    background-color: rgb(135, 157, 80);
+    background-size: 100%;
+    position: absolute;
+}
+.container
+{
+    position: absolute;
+    width: 1442.5px;
+    height: 780.5px;
+    margin-left: -10.5px;
+    margin-top: -12.5px;
+    background-image: url(hycw.gif);
+}
+.container2
+{
+    position: absolute;
+    width: 1050.5px;
+    height: 584.5px;
+    margin-left: 178px;
+    margin-top: 52px;
+    background-color: rgb(194, 207, 176);
+    border: 5px solid black;
+}
+.title
+{
+    position: absolute;
+    font-size: 125.5px;
+    margin-left: -170px;
+    margin-top: -3px;
+    font-family: Impact, sans-serif;
+    z-index: 2;
+}
+.title2
+{
+    position: absolute;
+    font-size: 125.5px;
+    margin-left: -174.5px;
+    margin-top: 6px;
+    font-family: Impact, sans-serif;
+    color:rgb(196, 194, 78);
+    z-index: 1;
+}
+.num1 
+{
+    position: absolute;
+    width: 327px;
+    margin-left: 14.5px;
+    margin-top: 153px;
+    z-index: 3;
+}
+.num2
+{
+    position: absolute;
+    width: 376.5px;
+    margin-left: 374px;
+    margin-top: 180px;
+    z-index: 4;
+}
+.num3
+{
+    position: absolute;
+    width: 323px;
+    margin-left: 714.5px;
+    margin-top: 127.5px;
+    z-index: 5;
+}
+.Practice02 /*container*/
+{
+    position: absolute;
+    width: 1543px;
+    margin-left: -91.5px;
+    margin-top: -802px;
+    height: 571.5px;
+  }
+.begin /* text: "in the beginning" */
+{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 779.5px;
+    margin-top: 1521px;
+    font-family: 'Star Wars', sans-serif;
+    -webkit-text-stroke: 3px black;
+    color: rgb(207, 211, 22);
+}
