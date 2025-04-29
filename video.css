@@ -1,0 +1,198 @@
+body 
+{
+    background-color: rgb(135, 157, 80);
+    background-size: 100%;
+    position: absolute;
+}
+.container
+{
+    position: absolute;
+    width: 1442.5px;
+    height: 780.5px;
+    margin-left: -10.5px;
+    margin-top: -12.5px;
+}
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+.container2
+{
+    position: absolute;
+    width: 1050.5px;
+    height: 2974.5px;
+    margin-left: 178px;
+    margin-top: 52px;
+    background-color: rgb(109, 122, 125);
+    border: 5px solid black;
+}
+.title
+{
+    position: absolute;
+    font-size: 104.5px;
+    margin-left: 20px;
+    margin-top: -3px;
+    font-family: Impact, sans-serif;
+    z-index: 2;
+}
+.title2
+{
+    position: absolute;
+    font-size: 104.5px;
+    margin-left: 13.5px;
+    margin-top: -10px;
+    font-family: Impact, sans-serif;
+    z-index: 1;
+    color: rgb(37, 145, 124);
+    border-bottom: 12px solid black;
+}
+.Practice02 /*container*/
+{
+    position: absolute;
+    width: 1543px;
+    margin-left: -91.5px;
+    margin-top: -802px;
+    height: 571.5px;
+}
+
+.vidContain1
+{
+    position: absolute;
+    width: 1543px;
+    margin-left: -91.5px;
+    margin-top: -802px;
+    height: 571.5px;
+    border: 3px solid black;
+}
+.vid1
+{
+    width: 560px;
+    margin-left: 240px;
+    margin-top: 167px;
+    border: 3px solid black;
+}
+#videoCW
+ {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+ }
+.vid1T
+{
+    position: absolute;
+    font-size: 34px;
+    margin-left: 235px;
+    margin-top: -10px;
+    color: black;
+    font-family: Impact, sans-serif;
+}
+.vidContain2
+{
+    position: absolute;
+    width: 1543px;
+    margin-left: -91.5px;
+    margin-top: -802px;
+    height: 571.5px;
+}
+.vid2
+{
+    width: 560px;
+    margin-left: 240px;
+    margin-top: 47.5px;
+    border: 3px solid black;
+    
+}
+.vid2T
+{
+    position: absolute;
+    font-size: 34px;
+    margin-left: 235px;
+    margin-top: -10px;
+    color: black;
+    font-family: Impact, sans-serif;
+}
+.vidContain3
+{
+    position: absolute;
+    width: 1543px;
+    margin-left: -91.5px;
+    margin-top: -802px;
+    height: 571.5px;
+}
+.vid3
+{
+    width: 560px;
+    margin-left: 240px;
+    margin-top: 47.5px;
+    border: 3px solid black;
+}
+.vid3T
+{
+    position: absolute;
+    font-size: 34px;
+    margin-left: 235px;
+    color: black;
+    margin-top: -10px;
+    font-family: Impact, sans-serif;
+}
+.vidContain4
+{
+    position: absolute;
+    width: 1543px;
+    margin-left: -91.5px;
+    margin-top: -802px;
+    height: 571.5px;
+}
+.vid4
+{
+    width: 560px;
+    margin-left: 240px;
+    margin-top: 47.5px;
+    border: 3px solid black;
+}
+.vid4T
+{
+    position: absolute;
+    font-size: 34px;
+    margin-left: 235px;
+    margin-top: -10px;
+    color: black;
+    font-family: Impact, sans-serif;
+}
+.vidContain5
+{
+    position: absolute;
+    width: 1543px;
+    margin-left: -91.5px;
+    margin-top: -802px;
+    height: 571.5px;
+}
+.vid5
+{
+    width: 560px;
+    margin-left: 240px;
+    margin-top: 47.5px;
+    border: 3px solid black;
+}
+.vid5T
+{
+    position: absolute;
+    font-size: 34px;
+    margin-left: 235px;
+    margin-top: -10px;
+    color: black;
+    font-family: Impact, sans-serif;
+}
