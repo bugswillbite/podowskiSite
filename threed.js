@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const images = ["my3dee2.png", "MS2.png", "moon.png", "MS4.png"]; 
+    const images = ["my3dee2.png", "my3dee3.png"]; 
     let currentIndex = 0;
     const imgElement = document.getElementById("slideshow");
     const nextButton = document.getElementById("nextImage");
