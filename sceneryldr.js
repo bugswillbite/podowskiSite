@@ -24,26 +24,26 @@ function sFunction1()
 }
 function s1()
 {
-    document.getElementById('slide1').src='idog.jpg';
+    document.getElementById('slide1').src='idog.JPG';
 }
 function s2()
 {
-    document.getElementById('slide2').src='hex.jpg';
+    document.getElementById('slide2').src='hex.JPG';
 }function s3()
 {
     document.getElementById('slide3').src='bro.jpg';
 }
 function sFunction2()
 {
-    document.getElementById('slide1').src='fish.jpg';
+    document.getElementById('slide1').src='fish.JPG';
     document.getElementById('slide2').src='fly.JPG';
-    document.getElementById('slide3').src='monkee.jpg';
+    document.getElementById('slide3').src='monkee.JPG';
 }
 function sFunction3()
 {
-   document.getElementById('slide1').src='peng.jpg';
+   document.getElementById('slide1').src='peng.JPG';
     document.getElementById('slide2').src='pillar.JPG';
-    document.getElementById('slide3').src='pik.jpg';
+    document.getElementById('slide3').src='pik.JPG';
 }
 
 
