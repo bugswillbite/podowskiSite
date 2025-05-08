@@ -14,58 +14,106 @@ body
     background-repeat: repeat;
     transition: background-color 0.3s, color 0.3s, background-image 0.3s;
 }
-
 /* THEMES */
 /* Mode1 */
 .theme1 
 {
     --bg-color: #f0f0f0;
-    --text-color: #0c0909;
-    --bg-image: url('aeroglasses.gif');
+    --text-color: #222222;
+    --bg-image: url('sc2.png');
 }
 .T1
 {
     position: absolute;
-    top: 10px;
-    left: 1%;
-    max-width: 15px;
+    top: 78.5px;
+    left: 71%;
+    max-width: 78.5px;
+}
+.themeText4
+{
+    position: absolute;
+    top: 121px;
+    left: 73.8%;
+    transform: translateX(-50%);
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 /* Mode2 */
 .theme2 
 {
     --bg-color: #1e3a8a;
     --text-color: #fbbf24;
-    --bg-image: url('converse.jpg');
+    --bg-image: url('sc3.png');
 }
 .T2
 {
     position: absolute;
-    top: 10px;
-    left: 1.7%;
-    max-width: 15px;
+    top: 150px;
+    left: 58.2%;
+    max-width: 78.5px;
+}
+.themeText2
+{
+    position: absolute;
+    top: 192px;
+    left: 61%;
+    transform: translateX(-50%);
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 /* Mode3 */
 .theme3 
 {
     --bg-color: #164a16;
     --text-color: #a3e635;
-    --bg-image: url('VGB1.png');
+    --bg-image: url('sc4.png');
 }
 .T3
 {
     position: absolute;
-    top: 10px;
-    left: 2.4%;
-    max-width: 15px;
+    top: 362px;
+    left: 59%;
+    max-width: 78.5px;
+}
+.themeText3
+{
+    position: absolute;
+    top: 405.5px;
+    left: 61.8%;
+    transform: translateX(-50%);
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 /* OG-Mode */
 .T4
 {
     position: absolute;
-    top: 10px;
-    left: 3.1%;
-    max-width:15px;
+    top: 279.5px;
+    left: 16.5%;
+    max-width: 78.5px;
 }
+.themeText1
+{
+    position: absolute;
+    top: 323.5px;
+    left: 19.4%;
+    transform: translateX(-50%);
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+
 
 /* FILE ICONS // TEXT */
 /* #1. BigBugsBrain */
